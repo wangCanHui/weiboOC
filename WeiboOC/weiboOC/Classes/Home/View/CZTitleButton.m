@@ -20,8 +20,10 @@
 
 - (void)setupSelf
 {
+//    self.backgroundColor = [UIColor clearColor];
+//    [self setValue:@(UIButtonTypeCustom) forKey:@"buttonType"];
     // 设置背景图片
-    [self setBackgroundImage:[UIImage imageNamed:@"timeline_card_bottom_line_highlighted"] forState:UIControlStateNormal];
+//    [self setBackgroundImage:[UIImage imageNamed:@"timeline_card_bottom_line_highlighted"] forState:UIControlStateNormal];
     //设置图片
     [self setImage:[UIImage imageNamed:@"new_dot"] forState:UIControlStateNormal];
     [self setImage:[UIImage imageNamed:@"new_dot"] forState:UIControlStateHighlighted];

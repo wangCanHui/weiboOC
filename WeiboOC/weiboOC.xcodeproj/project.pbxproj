@@ -27,6 +27,7 @@
 		6F91E29E1BD788DE00916219 /* CZDiscoverSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F91E29D1BD788DE00916219 /* CZDiscoverSearchBar.xib */; settings = {ASSET_TAGS = (); }; };
 		6FA12ECE1BDE6F4100E6895F /* CZTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA12ECD1BDE6F4100E6895F /* CZTitleButton.m */; settings = {ASSET_TAGS = (); }; };
 		6FE41C0F1BDDB17A00CA2E8A /* CZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE41C0E1BDDB17A00CA2E8A /* CZTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		6FE6B6611BDF0E40004CE327 /* CZPopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6B6601BDF0E40004CE327 /* CZPopController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,8 @@
 		6FA12ECD1BDE6F4100E6895F /* CZTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTitleButton.m; sourceTree = "<group>"; };
 		6FE41C0D1BDDB17A00CA2E8A /* CZTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTabBar.h; sourceTree = "<group>"; };
 		6FE41C0E1BDDB17A00CA2E8A /* CZTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTabBar.m; sourceTree = "<group>"; };
+		6FE6B65F1BDF0E40004CE327 /* CZPopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZPopController.h; sourceTree = "<group>"; };
+		6FE6B6601BDF0E40004CE327 /* CZPopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZPopController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +259,8 @@
 			children = (
 				6FA12ECC1BDE6F4100E6895F /* CZTitleButton.h */,
 				6FA12ECD1BDE6F4100E6895F /* CZTitleButton.m */,
+				6FE6B65F1BDF0E40004CE327 /* CZPopController.h */,
+				6FE6B6601BDF0E40004CE327 /* CZPopController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -546,6 +551,7 @@
 				6F6132731BD3C2D3007BA6BA /* CZDiscoverViewController.m in Sources */,
 				6F61327C1BD3C3BC007BA6BA /* CZNavigationController.m in Sources */,
 				6F6132681BD3C0A8007BA6BA /* AppDelegate.m in Sources */,
+				6FE6B6611BDF0E40004CE327 /* CZPopController.m in Sources */,
 				6F61321D1BD34E25007BA6BA /* main.m in Sources */,
 				6FE41C0F1BDDB17A00CA2E8A /* CZTabBar.m in Sources */,
 				6F6132761BD3C2E3007BA6BA /* CZMeViewController.m in Sources */,
