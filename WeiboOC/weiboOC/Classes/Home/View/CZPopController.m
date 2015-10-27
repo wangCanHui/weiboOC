@@ -20,7 +20,6 @@
 
 - (void)presentPopoverFromRect:(CGRect)rect inView:(UIView *)view permittedArrowDirections:(CZPopoverArrowDirection)arrowDirections animated:(BOOL)animated
 {
- 
     self.coverBtn.hidden = NO; //为了调用getter方法
 //    self.popView.hidden = NO;
 //    NSLog(@"popView:%@",self.popView);

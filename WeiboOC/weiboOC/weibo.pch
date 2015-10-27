@@ -13,8 +13,9 @@
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
-#import "UIBarButtonItem+Extension.h"
-#import "UIView+ZUtility.h"
+// 所有的分类扩张文件
+#import "MyExtension.h"
+
 
 
 #endif /* weibo_pch */

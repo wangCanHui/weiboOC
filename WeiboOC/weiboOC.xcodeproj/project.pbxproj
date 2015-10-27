@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F41BF8A1BDF91A9006E15FC /* CZNewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F41BF891BDF91A9006E15FC /* CZNewFeatureController.m */; settings = {ASSET_TAGS = (); }; };
+		6F41BF8E1BDF973E006E15FC /* CZBeginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F41BF8D1BDF973E006E15FC /* CZBeginView.m */; settings = {ASSET_TAGS = (); }; };
+		6F41BF901BDF9757006E15FC /* CZBeginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F41BF8F1BDF9757006E15FC /* CZBeginView.xib */; settings = {ASSET_TAGS = (); }; };
+		6F41BF931BDF9E23006E15FC /* NSUserDefaults+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F41BF921BDF9E23006E15FC /* NSUserDefaults+Extension.m */; settings = {ASSET_TAGS = (); }; };
 		6F61321D1BD34E25007BA6BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F61321C1BD34E25007BA6BA /* main.m */; };
 		6F61322B1BD34E25007BA6BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6132291BD34E25007BA6BA /* LaunchScreen.storyboard */; };
 		6F6132361BD34E26007BA6BA /* weiboOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6132351BD34E26007BA6BA /* weiboOCTests.m */; };
@@ -48,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F41BF881BDF91A9006E15FC /* CZNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZNewFeatureController.h; sourceTree = "<group>"; };
+		6F41BF891BDF91A9006E15FC /* CZNewFeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZNewFeatureController.m; sourceTree = "<group>"; };
+		6F41BF8B1BDF96AD006E15FC /* MyExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyExtension.h; sourceTree = "<group>"; };
+		6F41BF8C1BDF973E006E15FC /* CZBeginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZBeginView.h; sourceTree = "<group>"; };
+		6F41BF8D1BDF973E006E15FC /* CZBeginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZBeginView.m; sourceTree = "<group>"; };
+		6F41BF8F1BDF9757006E15FC /* CZBeginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZBeginView.xib; sourceTree = "<group>"; };
+		6F41BF911BDF9E23006E15FC /* NSUserDefaults+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Extension.h"; sourceTree = "<group>"; };
+		6F41BF921BDF9E23006E15FC /* NSUserDefaults+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Extension.m"; sourceTree = "<group>"; };
 		6F6132181BD34E25007BA6BA /* weiboOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiboOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F61321C1BD34E25007BA6BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F61322A1BD34E25007BA6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -118,6 +130,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F41BF841BDF9187006E15FC /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				6F41BF851BDF9187006E15FC /* Controller */,
+				6F41BF861BDF9187006E15FC /* Model */,
+				6F41BF871BDF9187006E15FC /* View */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		6F41BF851BDF9187006E15FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F41BF881BDF91A9006E15FC /* CZNewFeatureController.h */,
+				6F41BF891BDF91A9006E15FC /* CZNewFeatureController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F41BF861BDF9187006E15FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F41BF871BDF9187006E15FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F41BF8C1BDF973E006E15FC /* CZBeginView.h */,
+				6F41BF8D1BDF973E006E15FC /* CZBeginView.m */,
+				6F41BF8F1BDF9757006E15FC /* CZBeginView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6F61320F1BD34E25007BA6BA = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +228,7 @@
 		6F61324E1BD3C0A8007BA6BA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6F41BF841BDF9187006E15FC /* NewFeature */,
 				6F6132671BD3C0A8007BA6BA /* Temp */,
 				6F6132571BD3C0A8007BA6BA /* Lib */,
 				6F6132581BD3C0A8007BA6BA /* Main */,
@@ -403,6 +452,9 @@
 				6F61327F1BD3CA06007BA6BA /* UIView+ZUtility.m */,
 				6F6132871BD3CFFC007BA6BA /* UIBarButtonItem+Extension.h */,
 				6F6132881BD3CFFC007BA6BA /* UIBarButtonItem+Extension.m */,
+				6F41BF911BDF9E23006E15FC /* NSUserDefaults+Extension.h */,
+				6F41BF921BDF9E23006E15FC /* NSUserDefaults+Extension.m */,
+				6F41BF8B1BDF96AD006E15FC /* MyExtension.h */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -513,6 +565,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F61326A1BD3C126007BA6BA /* Assets.xcassets in Resources */,
+				6F41BF901BDF9757006E15FC /* CZBeginView.xib in Resources */,
 				6F91E29E1BD788DE00916219 /* CZDiscoverSearchBar.xib in Resources */,
 				6F61322B1BD34E25007BA6BA /* LaunchScreen.storyboard in Resources */,
 			);
@@ -542,17 +595,20 @@
 				6F6132891BD3CFFC007BA6BA /* UIBarButtonItem+Extension.m in Sources */,
 				6F6132831BD3CE1E007BA6BA /* CZTwoViewController.m in Sources */,
 				6F61326D1BD3C2B5007BA6BA /* CZHomeViewController.m in Sources */,
+				6F41BF931BDF9E23006E15FC /* NSUserDefaults+Extension.m in Sources */,
 				6F6132701BD3C2C6007BA6BA /* CZMessageViewController.m in Sources */,
 				6F6132791BD3C2FB007BA6BA /* CZTabBarController.m in Sources */,
 				6F6132861BD3CE2B007BA6BA /* CZThreeViewController.m in Sources */,
 				6F91E29C1BD788D500916219 /* CZDiscoverSearchBar.m in Sources */,
 				6F6132801BD3CA06007BA6BA /* UIView+ZUtility.m in Sources */,
 				6FA12ECE1BDE6F4100E6895F /* CZTitleButton.m in Sources */,
+				6F41BF8E1BDF973E006E15FC /* CZBeginView.m in Sources */,
 				6F6132731BD3C2D3007BA6BA /* CZDiscoverViewController.m in Sources */,
 				6F61327C1BD3C3BC007BA6BA /* CZNavigationController.m in Sources */,
 				6F6132681BD3C0A8007BA6BA /* AppDelegate.m in Sources */,
 				6FE6B6611BDF0E40004CE327 /* CZPopController.m in Sources */,
 				6F61321D1BD34E25007BA6BA /* main.m in Sources */,
+				6F41BF8A1BDF91A9006E15FC /* CZNewFeatureController.m in Sources */,
 				6FE41C0F1BDDB17A00CA2E8A /* CZTabBar.m in Sources */,
 				6F6132761BD3C2E3007BA6BA /* CZMeViewController.m in Sources */,
 			);

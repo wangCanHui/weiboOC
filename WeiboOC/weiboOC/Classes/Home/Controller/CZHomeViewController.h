@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CZHomeViewController : UIViewController
+@interface CZHomeViewController : UITableViewController
 
 @end
