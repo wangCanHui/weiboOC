@@ -1,0 +1,18 @@
+
+//
+//  weibo.pch
+//  weiboOC
+//
+//  Created by 王灿辉 on 15/10/18.
+//  Copyright © 2015年 王灿辉. All rights reserved.
+//
+
+#ifndef weibo_pch
+#define weibo_pch
+
+
+#import "UIBarButtonItem+Extension.h"
+
+
+
+#endif /* weibo_pch */
